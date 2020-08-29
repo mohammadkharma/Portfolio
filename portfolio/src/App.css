@@ -7,7 +7,7 @@ body {
 
 .navbar ul {
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgb(0, 0, 182);
   padding: 10px;
 }
 
@@ -22,7 +22,8 @@ body {
 }
 
 .navbar li a.active {
-  color: blueviolet;
+  color: rgb(0, 0, 182);
+  font-size: 24px;
 }
 
 /* ----------------------------------- */
@@ -30,6 +31,7 @@ body {
 .home .image {
   display: block;
   margin: auto;
+  border: 5px solid rgb(0, 0, 182);
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -39,4 +41,26 @@ body {
 .home {
   padding: 20px;
   text-align: center;
+}
+
+.home h1::first-letter {
+  font-size: 150%;
+  color: rgb(0, 0, 182);
+}
+
+/* ----------------------------------- */
+
+.about {
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.about div {
+  border-bottom: 1px solid rgb(0, 0, 182);
+}
+
+.about div h3 {
+  border-bottom: rgb(0, 0, 182);
 }
