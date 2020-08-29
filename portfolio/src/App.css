@@ -2,24 +2,41 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: rgb(165, 165, 165);
 }
 
 .navbar ul {
   text-align: center;
-  background: grey;
+  border-bottom: 1px solid #000;
   padding: 10px;
 }
 
 .navbar ul li {
-  margin: 10px;
+  margin: 30px;
   display: inline;
 }
 
 .navbar li a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .navbar li a.active {
-  color: green;
+  color: blueviolet;
+}
+
+/* ----------------------------------- */
+
+.home .image {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("./images/portrait.jpg");
+}
+
+.home {
+  padding: 20px;
+  text-align: center;
 }
