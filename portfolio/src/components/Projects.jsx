@@ -11,7 +11,6 @@ const Projects = () => {
               Building a system for Sky AKademie Berlin for managing courses and
               clients using LAMP stack.
             </p>
-            <button disabled>Go</button>
           </div>
         </div>
         <div class="column">
