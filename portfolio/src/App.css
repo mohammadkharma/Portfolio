@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: rgb(164, 164, 164);
 }
 
 .navbar ul {
@@ -116,6 +115,7 @@ body {
   padding-bottom: 10px;
   margin-top: 10px;
   text-align: center;
+  border: 1px solid blue;
 }
 
 .contact .field textarea {
@@ -123,6 +123,7 @@ body {
   height: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid blue;
   margin-top: 10px;
   text-align: center;
 }
@@ -138,4 +139,38 @@ body {
   padding-bottom: 10px;
   margin-top: 10px;
   border-radius: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-xing {
+  background: #125444;
+  color: greenyellow;
+}
+
+footer p {
+  color: rgb(164, 160, 160);
 }

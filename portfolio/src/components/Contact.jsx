@@ -22,6 +22,19 @@ const Contact = () => {
           <input className="submit" type="submit" value="Submit" />
         </div>
       </form>
+
+      <footer>
+        <a
+          href="https://www.linkedin.com/in/mohammad-kharma-95606ba9/"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="https://www.xing.com/profile/Mohammad_Kharma2/cv"
+          class="fa fa-xing"
+        ></a>
+
+        <p>mohammad.kh.8688@gmail.com</p>
+      </footer>
     </div>
   );
 };
